@@ -19,7 +19,6 @@ import { PostTweetComponent } from './post-tweet/post-tweet.component';
 import { ControlPushComponent } from './control-push/control-push.component';
 
 import { WindowRef } from './window-ref';
-
 export function initConfiguration(configService: ConfigService): Function {
   return () => configService.load();
 }
