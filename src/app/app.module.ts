@@ -17,8 +17,10 @@ import { TweetFeedsComponent } from './tweet-feeds/tweet-feeds.component';
 
 import { PostTweetComponent } from './post-tweet/post-tweet.component';
 import { ControlPushComponent } from './control-push/control-push.component';
+import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 
 import { WindowRef } from './window-ref';
+import { NewComponentComponent } from './new-component/new-component.component';
 
 export function initConfiguration(configService: ConfigService): Function {
   return () => configService.load();
@@ -30,14 +32,16 @@ export function initConfiguration(configService: ConfigService): Function {
     TweetListComponent,
     ControlPushComponent,
     TweetFeedsComponent,
-    PostTweetComponent
+    PostTweetComponent,
+    NewComponentComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
-    MaterialModule
+    MaterialModule,
+    Ng2CarouselamosModule
   ],
   providers: [
     ConfigService,
