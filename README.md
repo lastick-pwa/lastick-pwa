@@ -8,6 +8,9 @@ Jean criar os icones do app que ficara na area de trabalho:
 
 
 android-chrome-192x192
+
 android-chrome-512x512
+
 favicon-16x16
+
 favicon-32x32
