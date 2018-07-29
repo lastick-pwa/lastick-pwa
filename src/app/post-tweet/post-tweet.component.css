@@ -13,3 +13,33 @@
     font-weight: bold;
     margin-left: 75px;
 }
+.quinze {
+    height: 24px;
+    width: 37.41px;	
+    color: #B9B9B9;	
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 40px;
+}
+.seven {
+    height: 36px;	
+    width: 43.41px;	
+    color: #F3CA3E;	
+    font-size: 30px;
+    font-weight: 700;	
+    line-height: 36px;
+    margin-left: 5px;
+}
+
+.button {
+    background-color: #0E3448;; /* Green */
+    border: none;
+    color: white;
+    padding: 18px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.button3 {border-radius: 8px;}
