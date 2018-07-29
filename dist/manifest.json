@@ -1,11 +1,11 @@
 {
   "dir": "ltr",
   "lang": "en",
-  "name": "PWAtter",
+  "name": "lasTick",
   "scope": "/",
   "display": "standalone",
   "start_url": "./?utm_source=web_app_manifest",
-  "short_name": "PWAtter",
+  "short_name": "lasTick",
   "theme_color": "#105B63",
   "description": "",
   "orientation": "any",

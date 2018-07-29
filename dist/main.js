@@ -74,7 +74,7 @@ var AppComponent = /** @class */ (function () {
     function AppComponent(snackBar, winRef) {
         this.snackBar = snackBar;
         this.winRef = winRef;
-        this.title = 'PWAtter';
+        this.title = 'lasTick';
     }
     AppComponent.prototype.ngOnInit = function () {
         this.subscribeToUpdates();
