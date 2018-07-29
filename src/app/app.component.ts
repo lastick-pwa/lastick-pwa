@@ -11,7 +11,7 @@ declare const BroadcastChannel;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'lasTick';
+  title = 'LasTick';
 
   constructor(public snackBar: MatSnackBar, private winRef: WindowRef) { }
 

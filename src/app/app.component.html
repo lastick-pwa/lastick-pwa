@@ -9,12 +9,20 @@
 
     <mat-nav-list>
       <mat-list-item>
-        <mat-icon mat-list-icon>folder</mat-icon>
-        <a matLine>Dashboard</a>
+        <mat-icon mat-list-icon>credit_card</mat-icon>
+        <a matLine>Pagamento</a>
       </mat-list-item>
       <mat-list-item>
-        <mat-icon mat-list-icon>folder</mat-icon>
-        <a matLine>Logout</a>
+        <mat-icon mat-list-icon>assignment_ind</mat-icon>
+        <a matLine>Perfil</a>
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon mat-list-icon>history</mat-icon>
+        <a matLine>Histórico</a>
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon mat-list-icon>exit_to_app</mat-icon>
+        <a matLine>Sair</a>
       </mat-list-item>
     </mat-nav-list>
 
@@ -23,29 +31,22 @@
   <mat-toolbar color="primary">
     <span>
       <button mat-icon-button (click)="sidenav.open()">
-        <mat-icon>menu</mat-icon>
+        <img id="icon-menu" src="https://github.com/lastick-pwa/lastick-pwa/blob/master/art/icon-ticket.png?raw=true">
       </button>
     </span>
-    <span>{{title}}</span>
+    <span>
+      <img id="logo-header" src="https://github.com/lastick-pwa/lastick-pwa/blob/master/art/header-logo.png?raw=true">
+    </span>
+
+    <img id="profile" src="http://www.epsomps.vic.edu.au/wp-content/uploads/2016/09/512x512-1-300x300.png" alt="Avatar">
 
   </mat-toolbar>
 
   <div class="content">
 
-    <mat-tab-group>
-      <mat-tab label="Background Sync">
+    <app-post-tweet></app-post-tweet>
 
-        <app-post-tweet></app-post-tweet>
-
-      </mat-tab>
-      <mat-tab label="Push Notifications">
-
-        <app-control-push></app-control-push>
-
-      </mat-tab>
-    </mat-tab-group>
-
-    <app-tweet-feeds></app-tweet-feeds>
+    <!-- <app-control-push></app-control-push> -->
 
   </div>
 

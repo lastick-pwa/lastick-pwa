@@ -1,30 +1,18 @@
 <mat-card>
-  <mat-card-header>
-    <mat-icon mat-card-avatar>sync</mat-icon>
-    <mat-card-title>Background Sync</mat-card-title>
-    <mat-card-subtitle>Defer actions until the user has stable connectivity</mat-card-subtitle>
-  </mat-card-header>
   <mat-card-content>
-
-    <form #messageForm="ngForm" novalidate (submit)="messageFormSubmit(messageForm)">
-
-      <mat-input-container style="width: 300px;">
-        <input matInput placeholder="Message" value="" type="text" required ngModel #messageRef name="message">
-        <div *ngIf="messageRef.errors?.required && messageRef.touched" class="error">
-          Message is required
-        </div>
-      </mat-input-container>
-
-      <button mat-raised-button color="accent" type="submit"><mat-icon>message</mat-icon>Post!</button>
-      
-    </form>
-
-  </mat-card-content>
-
-</mat-card>
-
-<mat-card>
-  <mat-card-content>
-    <h1>Testando tudo</h1>
+    <h2 style="text-align: center">
+      <b>Mission: Impossible
+        <br /> Fallout</b>
+    </h2>
+    <hr>
+    <img id="img-fallout" src="http://lonepeakcinema.com/wp-content/uploads/2018/07/MI-Fallout.jpg">
+    <br/>
+    <div id="contador">
+      <span id="timer">{{counter}}</span>
+    </div>
+    <br />
+    <label class="quinze" style="text-decoration:line-through">$15</label>
+    <label class="seven">$7</label>
+    <button class="button button3">Comprar</button>
   </mat-card-content>
 </mat-card>
