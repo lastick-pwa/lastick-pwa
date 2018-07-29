@@ -1,10 +1,13 @@
-img {
+#profile {
     border-radius: 50%;
     width: 44px;
     height: 44px;
-    margin-left: 95px;
+    margin-left: 55px;
 }
 
 #logo-header {
-    margin-left: 100px;
+    margin-left: 50px;
+    color: black;
+    width: 139px;
+    height: 36px;
 }

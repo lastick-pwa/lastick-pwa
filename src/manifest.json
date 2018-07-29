@@ -6,7 +6,7 @@
   "display": "standalone",
   "start_url": "./?utm_source=web_app_manifest",
   "short_name": "LasTick",
-  "theme_color": "#105B63",
+  "theme_color": "#ffffff",
   "description": "",
   "orientation": "any",
   "background_color": "#DB9E36",
